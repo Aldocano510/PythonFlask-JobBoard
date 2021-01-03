@@ -19,3 +19,4 @@ def execute_sql():
 @app.route('/jobs')
 def jobs():
     return render_template('index.html')
+(print)'hi'
