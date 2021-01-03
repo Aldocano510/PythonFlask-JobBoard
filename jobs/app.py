@@ -12,6 +12,8 @@ def open_connection():
     connection.row_factory = sqlite3.Row
     return connection
 
+def execute_sql():
+    connection = open connection()
 
 @app.route('/')
 @app.route('/jobs')
